@@ -1,0 +1,56 @@
+/* Style untuk header */
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+}
+
+/* Style untuk link navigasi */
+nav a {
+	padding: 10px;
+	background-color: #ddd;
+	color: #333;
+	text-decoration: none;
+}
+
+/* Style untuk tombol tambah baru */
+nav a:first-child {
+	background-color: #4CAF50;
+	color: #fff;
+}
+
+/* Style untuk tabel */
+table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-top: 10px;
+}
+
+table th, table td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+table th {
+	background-color: #4CAF50;
+	color: #fff;
+}
+
+/* Style untuk tombol edit dan hapus */
+table a {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+}
+
+table a:last-child {
+	background-color: #f44336;
+}
+
+/* Style untuk jumlah total */
+p {
+	font-weight: bold;
+}
